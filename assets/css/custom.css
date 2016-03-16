@@ -46,3 +46,8 @@ span {
 .salidaValido {
   color: green;
 }
+
+#test {
+   margin-left: 5%;
+   font-size: 0.8em;
+}
