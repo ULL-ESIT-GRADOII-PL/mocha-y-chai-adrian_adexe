@@ -1,17 +1,16 @@
-# Práctica eliminación de Switch Smell
+# Práctica pruebas Mocha y Chai
 
-Este repositorio aloja la aplicación de conversión de tipos, realizada en la práctica anterior con html, css y javascript, usando POO y haciendo uso de la herencia en javascript. Además de la librería [**XRegExp**](http://xregexp.com/).
+Repositorio donde aloja la aplicación de conversión de tipos, realizada con anterioridad con html, css y javascript, usando POO y haciendo uso de la herencia en javascript. Además de la librería [**XRegExp**](http://xregexp.com/).
 
-Se ha reescrito el código de la práctica anterior para optimizarlo de modo que siga el estandar [**OCP**](https://www.youtube.com/watch?v=JVlfj7mQZPo).
+Se le ha añadido las pruebas con **mocha** y **chai**. También usa **gulp** y cubrimiento con **blanketjs**.
 
 ## Repositorio GitHuB
 
-* [Repositorio Organización](https://github.com/ULL-ESIT-GRADOII-PL/eliminacion-del-switch-adrian_adexe)
-* [Repositorio '*fork*'](https://github.com/AdCalzadilla/eliminacion-del-switch-adrian_adexe)
+* [Repositorio Organización](https://github.com/ULL-ESIT-GRADOII-PL/mocha-y-chai-adrian_adexe)
 
 ## Página de la práctica
 
-* [Página Web de la organización](http://ull-esit-gradoii-pl.github.io/eliminacion-del-switch-adrian_adexe/)
+* [Página Web de la organización](http://ull-esit-gradoii-pl.github.io/mocha-y-chai-adrian_adexe/)
 
 ## Página del autor
 
