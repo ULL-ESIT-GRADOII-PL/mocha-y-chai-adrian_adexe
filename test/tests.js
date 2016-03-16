@@ -9,6 +9,11 @@ describe("Creación de un objeto Medida", function(){
       var medida = new Medida(23,'F');
       expect(medida.tipo).to.equal('F');
    });
+   it("Debe aceptar una cadena del tipo: '23f'", function(){
+      var medida = new Medida('23F');
+      expect(medida.valor).to.equal('23');
+      expect(medida.tipo).to.equal('F');
+   });
 });
 
 describe("Creación de un objeto Temperatura", function(){
