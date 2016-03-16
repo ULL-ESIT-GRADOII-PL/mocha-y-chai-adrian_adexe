@@ -50,3 +50,23 @@ describe("Creación de un objeto Temperatura", function(){
       });
    });
 });
+describe("Conversión de temperaturas", function(){
+   describe("De celsius a kelvin", function(){
+      var celsius = new Celsius(23);
+      it("Valor", function(){
+         expect(celsius.toKelvin().valor).to.equal(296.15);
+      });
+      it("Tipo", function(){
+         expect(celsius.toKelvin().tipo).to.equal('k');
+      });
+   });
+   describe("De celsius a farenheit", function(){
+      var celsius = new Celsius(23);
+      it("Valor", function(){
+         expect(celsius.toFarenheit().valor).to.equal(73.4);
+      });
+      it("Tipo", function(){
+         expect(celsius.toFarenheit().tipo).to.equal('f');
+      });
+   });
+});
