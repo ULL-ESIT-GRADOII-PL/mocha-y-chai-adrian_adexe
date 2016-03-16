@@ -1,15 +1,23 @@
 var expect = chai.expect;
 
-describe("Temperatura",function() {
-   describe("Creación de un objeto Medida", function(){
-      it("Debe tener un número", function(){
-         var medida = new Medida(23,'F');
-         expect(medida.valor).to.equal(23);
-      });
-      it("Debe tener una unidad de medida", function(){
-         var medida = new Medida(23,'F');
-         expect(medida.tipo).to.equal('F');
-      });
+describe("Creación de un objeto Medida", function(){
+   it("Debe tener un número", function(){
+      var medida = new Medida(23,'F');
+      expect(medida.valor).to.equal(23);
+   });
+   it("Debe tener una unidad de medida", function(){
+      var medida = new Medida(23,'F');
+      expect(medida.tipo).to.equal('F');
+   });
+});
+describe("Creación de un objeto Temperatura", function(){
+   it("Debe tener un número", function(){
+      var temperatura = new Temperatura(23,'F');
+      expect(temperatura.valor).to.equal(23);
+   });
+   it("Debe tener una unidad de medida", function(){
+      var temperatura = new Temperatura(55,'K');
+      expect(temperatura.tipo).to.equal('K');
    });
 
    describe("Creación de un objeto Kelvin", function(){
