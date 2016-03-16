@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/aluXXXXXXX/STW03",
   "devDependencies": {
+    "blanket": "^1.2.2",
     "chai": "^3.5.0",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
