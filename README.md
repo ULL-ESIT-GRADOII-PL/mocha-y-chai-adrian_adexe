@@ -10,7 +10,8 @@ Se le ha añadido las pruebas con **mocha** y **chai**. También usa **gulp** y 
 
 ## Página de la práctica
 
-* [Página Web de la organización](http://ull-esit-gradoii-pl.github.io/mocha-y-chai-adrian_adexe/)
+* [Página Web de la práctica](http://ull-esit-gradoii-pl.github.io/mocha-y-chai-adrian_adexe/)
+* [Enlace a la práctica en el campus virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=182932)
 
 ## Página del autor
 
