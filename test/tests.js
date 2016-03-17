@@ -74,5 +74,8 @@ describe("Conversión de temperaturas", function(){
       it("Tipo", function(){
          expect(celsius.toFarenheit().tipo).to.equal('f');
       });
+      it("Devuelve un objeto Farenheit", function(){
+         expect(celsius.toFarenheit()).instanceof(Farenheit);
+      });
    });
 });
