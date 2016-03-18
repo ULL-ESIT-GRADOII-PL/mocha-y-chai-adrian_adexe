@@ -4,6 +4,11 @@ Repositorio donde aloja la aplicación de conversión de tipos, realizada con an
 
 Se le ha añadido las pruebas con **mocha** y **chai**. También usa **gulp** y cubrimiento con **blanketjs**.
 
+Para ejecutar el servidor en local:
+```bash
+$ node assets/js/static_server.js
+```
+
 ## Repositorio GitHuB
 
 * [Repositorio Organización](https://github.com/ULL-ESIT-GRADOII-PL/mocha-y-chai-adrian_adexe)
